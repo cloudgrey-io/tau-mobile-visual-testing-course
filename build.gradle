@@ -1,0 +1,16 @@
+group 'io.cloudgrey.tau_course'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'io.appium', name: 'java-client', version: '7.0.0'
+    testCompile group: 'com.applitools', name: 'eyes-appium-java4', version: '4.0.2'
+}
