@@ -33,3 +33,7 @@ output.json
 #NDK
 obj/
 .externalNativeBuild
+.classpath
+.project
+.settings
+.vim
